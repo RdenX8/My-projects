@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif ;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  flex-wrap: wrap;
+  max-width: 1165px;
+  margin: 0 auto;
+}
+.text1 {
+width: 474px;
+height: 92px;
+color: rgb(8, 62, 158);
+font-size: 40px;
+margin: 39px;
+}
+.gallery1 {
+  position: static;
+  margin: 11px;
+}
+
+.part1 {
+position: static;
+margin-top: 90px;
+
+}
+.sum1 {
+margin: 11px;
+color: rgb(74, 85, 104);
+font-size: 24px;
+line-height: 24px;
+}
+ .sum2 {
+position: absolute;
+margin-top: 16px;
+margin-left: 27px;
+color: rgba(59, 59, 59, 0.7);
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+}
+.sum3 {
+padding: 10px 20px;
+width: 471px;
+height: 64px;
+border-radius: 5px;
+background: rgba(0, 136, 204, 0.08);
+margin-bottom: 34px;
+}
+.sum4 {
+margin: 11px;
+color: rgb(74, 85, 104);
+font-size: 24px;
+line-height: 24px;
+}
+.su {
+padding: 10px 20px;
+width: 474px;
+height: 64px;
+border-radius: 4px;
+background: rgba(0, 136, 204, 0.08);
+margin-bottom: 69px;
+}
+
+.sum5 {
+position: absolute;
+margin-top: 16px;
+margin-left: 27px;
+color: rgba(59, 59, 59, 0.7);
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+}
+.text2 {
+color: rgb(8, 62, 158);
+font-size: 24px;
+line-height: 24px;
+text-align: left;
+}
+.results {
+color: rgb(0, 0, 0);
+font-size: 36px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 31px;
+background-color: white;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1171px;
+    margin: 0 auto;
+}
+.gallery2 {
+  position: static;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+      "main1 main1"
+      "main2 main3";
+      margin: 0 auto;
+}
+.gallery2 img {
+   grid-area: main2;
+  margin: 11px;
+}
+.gallery2 h2 {
+  grid-area: main1;
+  text-align: center;
+  color: rgb(8, 62, 158);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 114.5%;
+  letter-spacing: 0%;
+}
+.gallery2 p {
+  grid-area: main3;
+  color: rgb(74, 85, 104);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 114.5%;
+  letter-spacing: 0%;
+  margin-top: 124px;
+  text-align: left;
+ }
